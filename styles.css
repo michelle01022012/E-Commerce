@@ -94,7 +94,13 @@ button:active {
 }
 
 .header__img--wrapper {
-  padding 20px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.header__img--wrapper img {
+  width: 100%;
+  height: auto;
 }
 
 .purple {
