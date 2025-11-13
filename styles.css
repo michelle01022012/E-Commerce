@@ -76,6 +76,10 @@ button:active {
   border: none;
 }
 
+.header__img--wrapper {
+  padding 20px;
+}
+
 .purple {
   color: #7342d6;
 }
