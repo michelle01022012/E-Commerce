@@ -236,9 +236,8 @@ header {
 .header__img--wrapper {
   padding: 20px;
 
-  /* Added this after the tutorial to 
-  show it over the wave on larger screens */
-  z-index: 50;
+  /* So this will work on larger screens*/
+  z-index: 2;
 }
 
 .container {
@@ -305,7 +304,7 @@ HIGHLIGHTS
   display: flex;
   align-items: center;
   justify-content: center;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .highlight__para {
